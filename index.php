@@ -7,9 +7,8 @@
           </div>
           
         <meta charset="UTF-8">
-        <link rel="icon" href="app/sts/assets/image/icon/favicon.ico">
         <link rel="stylesheet" type="text/css" href="estilo.css">  
-        <title>Home - Celke</title>
+        <title>Cadastrar</title>
        
         <nav>
             <ul>
@@ -17,7 +16,8 @@
             </ul>
           </nav>         
     <body>
-        <form>
+        <h1>Cadastrar Usuário</h1>
+        <form method="POST" action="processa.php">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br><br>
             <label for="email">Email:</label>
